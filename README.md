@@ -22,7 +22,7 @@ $ npm install -g @oclif/example-multi-js
 $ example-multi-js COMMAND
 running command...
 $ example-multi-js (-v|--version|version)
-@oclif/example-multi-js/1.10.6 linux-x64 node-v13.3.0
+@oclif/example-multi-js/1.10.6 darwin-x64 node-v12.14.1
 $ example-multi-js --help [COMMAND]
 USAGE
   $ example-multi-js COMMAND
@@ -34,6 +34,7 @@ USAGE
 * [`example-multi-js goodbye`](#example-multi-js-goodbye)
 * [`example-multi-js hello`](#example-multi-js-hello)
 * [`example-multi-js help [COMMAND]`](#example-multi-js-help-command)
+* [`example-multi-js serial`](#example-multi-js-serial)
 
 ## `example-multi-js goodbye`
 
@@ -87,4 +88,15 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.2.3/src/commands/help.ts)_
+
+## `example-multi-js serial`
+
+Show devices connected via serial to your computer
+
+```
+USAGE
+  $ example-multi-js serial
+```
+
+_See code: [src/commands/serial/index.js](https://github.com/oclif/example-multi-js/blob/v1.10.6/src/commands/serial/index.js)_
 <!-- commandsstop -->
